@@ -2,6 +2,12 @@
     display: none;
 }
 
+
+.nav li:before {
+    font-size: 4rem;
+    content: counter(item,circle);
+}
+
 body {
     color: #FFF;
     text-align: justify;
@@ -69,6 +75,12 @@ body {
 
     .main-header{
         padding: 0;
+    }
+
+    .nav-closed .menu-button {
+        border-color: #000000;
+        color: #000000;
+        background: transparent;
     }
 }
 
