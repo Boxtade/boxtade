@@ -1,6 +1,14 @@
 {
-  "name": "Boxtade",
-  "version": "0.0.5",
+  "name": "ghost",
+  "version": "0.8.0",
+  "description": "Just a blogging platform.",
+  "author": "Ghost Foundation",
+  "homepage": "http://ghost.org",
+  "keywords": [
+    "ghost",
+    "blog",
+    "cms"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/TryGhost/Ghost.git"
@@ -18,7 +26,7 @@
     "node": "~0.10.0 || ~0.12.0 || ^4.2.0"
   },
   "dependencies": {
-    "b-mailer": "~0.0.4",
+  	"b-mailer": "~0.0.4",
     "b-unix": "~0.1.1",
     "bcryptjs": "2.3.0",
     "bluebird": "3.3.5",
@@ -68,7 +76,7 @@
     "pg": "4.1.1"
   },
   "devDependencies": {
-    "b-mailer": "~0.0.4",
+  	"b-mailer": "~0.0.4",
     "b-unix": "~0.1.1",
     "bower": "1.4.1",
     "csscomb": "3.1.8",

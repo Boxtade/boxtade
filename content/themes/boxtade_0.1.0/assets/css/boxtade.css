@@ -2,6 +2,9 @@
     display: none;
 }
 
+.nav ul {
+    list-style: inherit !important;
+}
 
 .nav li:before {
     font-size: 4rem;
