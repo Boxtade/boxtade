@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 1200px) {
     .post-content p {
-        width: 70%;
+        width: 100%;
     }
 }
